@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header-p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo{
+    display: flex;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.logo-img{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.logo-img img{
+    width: 100px;
+}
+
+.logo p{
+    margin-top: 40px;
+}
+
+.txt-center{
+    text-align: center;
+    font-size: 40px;
+}
+
+.txt-center p{
+    margin-bottom: 20px;
+}
+
+.txt-center img{
+    width: 100%;
+}
+
+mark {
+    background: linear-gradient(transparent 60%, yellow 0%);
+  }
+
+.top-1{
+    margin: 20px 0;
+}
+
+.top-1 img{
+    width: 80%;
+}
