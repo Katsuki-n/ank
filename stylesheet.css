@@ -23,9 +23,9 @@
   .logo p{
       margin: 20px 0 0 20px;
   }
-  
+
   .txt-center{
-      text-align: center;
+    text-align: center;
   }
 
   .txt-center p{
@@ -87,9 +87,59 @@
 }
 
 .txt-left{
-    margin-left: 30px;
+    margin: 0 80px;
 }
 
 .txt-left p{
     margin: 30px 0;
+}
+
+.box1{
+    margin:2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ba7d7d;
+    border-radius: 3px 0 3px 0;
+}
+.box1:before,.box1:after
+{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border: solid 2px #ba7d7d;
+    border-radius: 50%;
+}
+.box1:after {
+    top:-12px;
+    left:-12px;
+}
+.box1:before {
+    bottom:-12px;
+    right:-12px;
+}
+.box1 h1 {
+    margin: 0; 
+    padding: 0;
+}
+
+.list2 ul {
+    border: solid 2px #ff938b;
+    background: #fffaf1;
+    padding: 0.5em 1em 0.5em 2.3em;
+    position: relative;
+}
+  
+.list2   ul li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style-type: none!important;/*ポチ消す*/
+}
+  
+.list2  ul li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1b0";/*アイコン種類*/
+    position: absolute;
+    left : 1em; /*左端からのアイコンまで*/
+    color: #ff938b; /*アイコン色*/
 }
