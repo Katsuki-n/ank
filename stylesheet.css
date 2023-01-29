@@ -57,8 +57,8 @@
       margin: 2em 0;
       color: #2c2c2f;
       background: #f2e5e5 ;
-      border-top: solid 5px #ba7d7d;
-      border-bottom: solid 5px #ba7d7d;
+      border-top: solid 5px #eec0bf;
+      border-bottom: solid 5px #eec0bf;
   }
   .box0 p {
       margin: 0; 
@@ -69,7 +69,7 @@
     text-align: left;
     margin-left: 100px;
     margin-right: 100px;
-    border: 2px #ba7d7d dashed;
+    border: 2px #eec0bf dashed;
     padding: 10px 0 10px 30px;
   }
 
@@ -98,7 +98,7 @@
     margin:2em 0;
     position: relative;
     padding: 0.25em 1em;
-    border: solid 2px #ba7d7d;
+    border: solid 2px #eec0bf;
     border-radius: 3px 0 3px 0;
 }
 .box1:before,.box1:after
@@ -107,7 +107,7 @@
     position: absolute;
     width:10px;
     height: 10px;
-    border: solid 2px #ba7d7d;
+    border: solid 2px #eec0bf;
     border-radius: 50%;
 }
 .box1:after {
@@ -156,6 +156,60 @@
     margin-left: 50px;
 }
 
+/*チェックマーク*/
+
+input[type=checkbox] {
+    display: none; 
+ }   
+
+ /*ボックス枠のCSS*/
+ .label_test:after {
+   position: absolute; 
+   content: ""; 
+   display: block; 
+   top: 50%; 
+   left: 15px; 
+   margin: -10px 0 0 -2px;
+   width: 17px;
+   height: 17px;
+   border: 3px solid black; 
+   border-radius: 50%; 
+ }
+
+ .label_test {
+    display: inline-block;
+   position: relative; 
+   padding: 0 0 0 40px; 
+   margin-bottom: 20px;
+ }
+
+.label_test:hover:after {
+   border-color: #c0506b; 
+}
+   .label_test:after, .label_test:before{
+   position: absolute; 
+   content: ""; 
+   display: block; 
+   top: 50%; 
+   }
+ /*チェックマークの追加*/
+   .label_test:before {
+       left: 21px; 
+       margin-top: -7px; 
+       width: 5px; 
+       height: 9px; 
+       border-right: 4px solid #c0506b; 
+       border-bottom: 4px solid #c0506b; 
+       transform: rotate(45deg); 
+       opacity: 0; 
+   }
+   /*チェックボックスがチェックされた時に動作する内容*/
+   input[type=checkbox]:checked + .label_test:before {
+   opacity: 1; 
+   }
+
+/*チェックマーク*/
+
 .p-up {
     color: red;
     font-size: 20px;
@@ -171,9 +225,98 @@ h2{
 }
 
 .box2{
-    border-bottom: 2px solid #ba7d7d;
+    border-bottom: 2px solid #eec0bf;
 }
 
 .box2 h1{
     margin-bottom: 0;
 }
+
+.flow0{
+    box-sizing: border-box;
+    margin: 40px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flow0 ul {
+    padding: 0;
+  }
+  .flow0 li {
+    list-style-type: none;
+  }
+
+  .flow0  dt {
+    width: 100%;
+    border-bottom: 2px solid #eec0bf;
+  }
+
+  .flow0  dd {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+  }
+  
+ .flow1 {
+    border: 3px solid #eec0bf;
+    margin: 0;
+  }
+  .flow1 > li {
+    padding: 30px;
+  }
+  .flow1 > li:not(:last-child) {
+    border-bottom: 3px solid #eec0bf;
+    position: relative;
+  }
+  .flow1 > li:not(:last-child)::before,
+  .flow1 > li:not(:last-child)::after {
+    content: "";
+    border: solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .flow1 > li:not(:last-child)::before {
+    border-width: 22px;
+    border-top-color: #eec0bf;
+  }
+  .flow1 > li:not(:last-child)::after {
+    border-width: 18px;
+    border-top-color: #fff;
+  }
+  .flow1 > li dl {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .flow1 > li dl dt {
+    font-size: 20px;
+    font-weight: 600;
+    color: #c0506b;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-right: 1vw;
+    text-align: center;
+  }
+  .flow1 > li dl dt .icon {
+    font-size: 12px;
+    color: #fff;
+    background: #eec0bf;
+    background: -moz-linear-gradient(left, rgba(107,144,219,1) 0%, rgba(102,213,233,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(107,144,219,1) 0%,rgba(102,213,233,1) 100%);
+    background: linear-gradient(to right, rgba(107,144,219,1) 0%,rgba(102,213,233,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b90db', endColorstr='#66d5e9',GradientType=1 );
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 20px;
+  }
