@@ -231,6 +231,7 @@ h2{
 
 .box2 h1{
     margin-bottom: 0;
+    padding-left: 80px;
 }
 
 .flow0{
@@ -321,3 +322,237 @@ h2{
     display: block;
     border-radius: 20px;
   }
+
+
+  .ribbon1 {
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+  }
+  .ribbon1:before {/*左側のリボン端*/
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: -60px;
+    left: -65px;
+    z-index: -2;
+    border: 35px solid #cd677e;
+    border-left-color: transparent;/*山形に切り抜き*/
+  }
+  
+  .ribbon1:after {/*右側のリボン端*/
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: -60px;
+    right: -65px;
+    z-index: -2;
+    border: 35px solid #cd677e;
+    border-right-color: transparent;/*山形に切り抜き*/
+  }
+  
+  .ribbon1 h1 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0 70px;
+    line-height: 45px;
+    font-size: 20px;
+    color: #FFF;
+    background: #c0506b;/*真ん中の背景色*/
+  }
+  .ribbon1 h1:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 10px transparent;
+    border-right: solid 15px #97344b;/*左の折り返し部分*/
+  }
+  .ribbon1 h1:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    right: 0;
+    border: none;
+    border-bottom: solid 10px transparent;
+    border-left: solid 15px #97344b;/*右の折り返し部分*/
+  }
+
+  .ribbon1 span{
+    font-size: 2em;
+  }
+
+.box3{
+    width: 70%;
+    margin:4em 0 4em 5em;
+    position: relative;
+    padding: 0.5em 2em 3em 2em;
+    border-top: solid 2px #c0506b;
+    border-bottom: solid 2px #c0506b;
+}
+.box3:before, .box3:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: #c0506b;
+}
+.box3:before {left: 10px;}
+.box3:after {right: 10px;}
+.box3 p {
+    margin: 30px 0;
+}
+
+.box3 h2{
+    color: #c0506b;
+    margin: 10px 30px;
+}
+
+.box3 span{
+    color: red;
+}
+
+.box3 a{
+    text-decoration: none;
+    background-color:#c0506b ;
+    color: #fff;
+    border-radius: 10px;
+    margin:  20px;
+    padding: 20px;
+}
+
+.box3 a:hover{
+    
+    opacity: 0.7;
+}
+
+.box4 {
+    margin: 2em 0;
+    background: rgb(243, 245, 245);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.box4 .box-title {
+    font-size: 1.2em;
+    background: #c0506b;
+    padding: 14px;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box4 p {
+    padding: 40px ;
+    margin: 0;
+}
+
+.box4 span{
+    border: 2px solid #97344b;
+    border-radius: 10px;
+    background-color: #97344b;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+/*コース*/
+.ribbon2-wrapper {  
+    display: block;
+    position: relative;
+    margin: 15px auto;
+    padding: 10px 0;
+    padding-bottom: 40px;
+    width: 100%;
+    background: rgb(243, 245, 245);
+    }
+  
+  .ribbon2 {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 5px ;
+    margin: 0 0 0 -20px;
+    max-width: 900px;
+    width: calc(100% + 20px);
+    color: white;
+    background: #c0506b;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ribbon2 h3{
+    margin: 0;
+    padding: 0 30px 0 15px;
+    border-top: dashed 1px #FFF;
+    border-bottom: dashed 1px #FFF;
+    font-size: 20px;
+    line-height: 46px;
+  }
+  
+  .ribbon2:after {
+    position: absolute;
+    content: '';
+    z-index: 1;
+    top: 0;
+    right: 0px;
+    width: 0px;
+    height: 0px;
+    border-width: 40px 15px 35px 0px;
+    border-color: transparent rgb(243, 245, 245) transparent transparent;
+    border-style: solid;
+  }
+  
+  .ribbon2:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-right: solid 20px #97344b;
+  }
+
+  .ribbon2 span{
+    font-size: 2em;
+    padding: 0 10px ;
+    padding-top: 10px;
+    display: inline-block;
+  }
+
+  .ribbon2-wrapper a{
+    text-decoration: none;
+    background-color:#c0506b ;
+    color: #fff;
+    border-radius: 10px;
+    margin:  20px;
+    padding: 20px;
+}
+
+.ribbon2-wrapper a:hover{
+    
+    opacity: 0.7;
+}
+
+.ribbon2-wrapper p{
+    margin-bottom: 40px;
+}
+
+.ribbon2-flex{
+    display: flex;
+}
+
+.ribbon2-txt{
+    width: 60%;
+}
+
+.ribbon2-img{
+    width: 30%;
+}
+
+.ribbon2-img img{
+    width: 100%;
+}
+/*コース*/
