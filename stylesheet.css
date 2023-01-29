@@ -4,7 +4,7 @@
   }
   
   .header-p{
-      font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
   }
   
   .logo{
@@ -19,6 +19,16 @@
   .logo-img img{
       width: 100px;
   }
+
+  .logo-name {
+    margin: 0;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.logo-name img{
+    width: 100%;
+}
   
   .logo p{
       margin: 20px 0 0 20px;
@@ -384,7 +394,7 @@ h2{
   }
 
   .ribbon1 span{
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
 .box3{
@@ -522,7 +532,7 @@ h2{
     display: inline-block;
   }
 
-  .ribbon2-wrapper a{
+a{
     text-decoration: none;
     background-color:#c0506b ;
     color: #fff;
@@ -531,7 +541,7 @@ h2{
     padding: 20px;
 }
 
-.ribbon2-wrapper a:hover{
+a:hover{
     
     opacity: 0.7;
 }
@@ -578,5 +588,46 @@ h2{
 
 .present1{
     border: 5px solid #c0506b;
-    padding: 50px;
+    padding: 50px 150px;
+    margin-bottom: 50px;
+}
+
+.present1 p{
+    margin: 40px 0;
+}
+
+.present1 a{
+    padding: 20px 80px;
+}
+
+.box5 {
+    position: relative;
+    margin: 2em 0;
+    padding: 80px 30px 30px;
+    border: solid 2px #c0506b;
+    background-color: #f2e5e5;
+}
+.box5 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 15px ;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #c0506b;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.box-title img{
+    width: 25px;
+    margin-right: 5px;
+}
+.box5 p {
+    margin: 0; 
+    padding: 0 ;
+    padding-bottom: 10px;
 }
