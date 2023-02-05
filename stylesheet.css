@@ -3,11 +3,11 @@
   }
 
   header{
-    max-width: 850px;
+    max-width: 800px;
   }
 
   main{
-    max-width: 850px;
+    max-width: 800px;
   }
 
   * img{
@@ -24,7 +24,6 @@
   
   .logo{
       display: flex;
-      font-size: 40px;
   }
 
   .logo-img{
@@ -764,7 +763,7 @@ input {
   padding: 2em 0.5em 2em 0.5em;
   color: #c0506b;
   width: 70%;
-  margin: 50px 0 50px 80px;
+  margin: 50px 0 50px 105px;
 }
 .box7:after{
   position: absolute;
@@ -799,4 +798,25 @@ footer p{
 
 footer a{
   padding: 10px 30px;
+}
+
+.back4{
+  background-image: url(img/back4.png);
+  background-size: cover;
+  padding: 20px 0;
+  font-weight:bold;
+}
+
+.back6{
+  background-image: url(img/back6.png);
+  background-size: cover;
+  padding: 20px 0;
+  font-weight:bold;
+}
+
+.back8{
+  background-image: url(img/back8.png);
+  background-size: cover;
+  padding: 20px 0;
+  font-weight:bold;
 }
