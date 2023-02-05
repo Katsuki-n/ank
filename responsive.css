@@ -1,42 +1,43 @@
-@media screen and (max-width:896px){ } 
-@media screen and (max-width:480px){ 
-    *{
+@media screen and (max-width:896px) {}
+
+@media screen and (max-width:480px) {
+    * {
         margin: 0;
         padding: 0;
         width: 100%;
     }
 
-    h1{
+    h1 {
         font-size: 1em;
     }
 
-    p{
+    p {
         text-align: left;
         padding-left: 30px;
         width: 90%;
         font-size: 0.9em;
     }
 
-    .logo{
+    .logo {
         margin-top: 10px;
         height: 60px;
     }
 
-    .logo-img{
+    .logo-img {
         width: 15%;
     }
 
     .logo-img img {
         width: 100%;
     }
-    
+
     .logo-name {
         margin: 0;
         margin-top: 20px;
         width: 30%;
     }
 
-    .top-1{
+    .top-1 {
         margin-top: 10px;
         margin-bottom: 0;
     }
@@ -44,7 +45,8 @@
     .list1 {
         width: 70%;
     }
-    .list1 ul{
+
+    .list1 ul {
         margin: 0 30px;
         padding: 30px;
     }
@@ -55,83 +57,87 @@
         padding-right: 10px;
     }
 
-    .top-p{
+    .top-p {
         font-size: 15px;
         padding-left: 20px;
     }
-      
-    .top-p p{
+
+    .top-p p {
         padding-left: 10px;
     }
 
-    .box1{
-        margin:30px;
+    .box1 {
+        margin: 30px;
         padding: 10px 0;
         border-radius: 3px 0 3px 0;
         width: 80%;
         text-align: center;
     }
-    .box1:before,.box1:after
-    {
-        width:10px;
+
+    .box1:before,
+    .box1:after {
+        width: 10px;
         height: 10px;
         border-radius: 50%;
     }
+
     .box1:after {
-        top:-12px;
-        left:-12px;
+        top: -12px;
+        left: -12px;
     }
+
     .box1:before {
-        bottom:-12px;
-        right:-12px;
+        bottom: -12px;
+        right: -12px;
     }
+
     .box1 h1 {
-        margin: 0; 
+        margin: 0;
         padding: 0;
     }
 
-    .list2{
+    .list2 {
         width: 70%;
     }
 
-    .list2 ul{
+    .list2 ul {
         margin-left: 0;
         font-size: 0.8em;
     }
 
-    .back4 p{
+    .back4 p {
         padding-left: 30px;
     }
 
-    .back6 p{
+    .back6 p {
         padding-left: 30px;
     }
 
-    .back8 p{
+    .back8 p {
         padding-left: 30px;
     }
 
 
     /*調整中*/
 
-.txt-left{
-    margin-left: 0;
-}
+    .txt-left {
+        margin-left: 0;
+    }
 
-.box0{
-    padding: 0;
-}
+    .box0 {
+        padding: 0;
+    }
 
 
 
-    
+
     .list3 {
         margin-left: 0;
     }
 
-    .present1{
+    .present1 {
         border: 5px solid #c0506b;
-        padding: 50px ;
+        padding: 50px;
         margin-bottom: 50px;
     }
 
@@ -157,50 +163,53 @@
     .ribbon1 {
         height: 45px;
         margin-bottom: 100px;
-      }
-      .ribbon1:before {/*左側のリボン端*/
+    }
+
+    .ribbon1:before {
+        /*左側のリボン端*/
         width: 10px;
         bottom: -60px;
         left: -65px;
         z-index: -2;
         border: 35px solid #cd677e;
         /*山形に切り抜き*/
-      }
-      
-      .ribbon1:after {/*右側のリボン端*/
+    }
+
+    .ribbon1:after {
+        /*右側のリボン端*/
         width: 10px;
         bottom: -60px;
         right: -65px;
         z-index: -2;
         /*山形に切り抜き*/
-      }
-      
-      .ribbon1 h1 {
+    }
+
+    .ribbon1 h1 {
         width: 60%;
         margin: 0;
         padding: 0;
         line-height: 45px;
         font-size: 20px;
-      }
+    }
 
-      .ribbon1 h1:before {
+    .ribbon1 h1:before {
         top: 100%;
         left: 0;
         border: none;
         /*左の折り返し部分*/
-      }
+    }
 
-      .ribbon1 h1:after {
+    .ribbon1 h1:after {
         top: 100%;
         right: 0;
         /*右の折り返し部分*/
-      }
-    
-      .ribbon1 span{
-        font-size: 1.5em;
-      }
+    }
 
-      .flow1 li{
+    .ribbon1 span {
+        font-size: 1.5em;
+    }
+
+    .flow1 li {
         width: 100%;
-      }
+    }
 }
