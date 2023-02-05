@@ -201,6 +201,99 @@
       
       /*flow*/
 
+      /*リボン１*/
+      .ribbon1 {
+        height: 45px;
+        margin-bottom: 100px;
+    }
+
+    .ribbon1:before {
+        /*左側のリボン端*/
+        width: 10px;
+        bottom: -77px;
+        left: 4px;
+        z-index: -2;
+        border: 35px solid #cd677e;
+        border-left-color: transparent;
+        /*山形に切り抜き*/
+    }
+
+    .ribbon1:after {
+        /*右側のリボン端*/
+        width: 10px;
+        bottom: -77px;
+        right: 4px;
+        z-index: -2;
+        border: 35px solid #cd677e;
+        border-right-color: transparent;
+        /*山形に切り抜き*/
+    }
+
+    .ribbon1 h1:before {
+        position: absolute;
+        content: '';
+        top: 100%;
+        left: 0;
+        border: none;
+        border-bottom: solid 10px transparent;
+        border-right: solid 35px #97344b;
+        /*左の折り返し部分*/
+      }
+      
+      .ribbon1 h1:after {
+        position: absolute;
+        content: '';
+        top: 100%;
+        right: 0;
+        border: none;
+        border-bottom: solid 10px transparent;
+        border-left: solid 35px #97344b;
+        /*右の折り返し部分*/
+}
+
+    .ribbon1 h1 {
+        width: 70%;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0 10px;
+        line-height: 45px;
+        font-size: 0.8em;
+    }
+
+    .ribbon1 span {
+        font-size: 1.5em;
+    }
+
+      /*リボン１*/
+
+      .box3{
+        margin: 50px auto;
+      }
+
+      .box3 h2{
+        margin: 10px 0;
+      }
+
+      .box3 p{
+        padding-left: 0;
+        margin: 30px auto;
+      }
+
+      .box3 a{
+        margin: 30px ;
+      }
+
+      .box4 .box-title {
+        font-size: 1em;
+        letter-spacing: 0;
+        padding: 20px 0;
+      }
+      
+
+      .box-title span{
+        margin: 0 10px;
+      }
+
     .back2 p {
         padding-left: 30px;
     }
@@ -257,52 +350,5 @@
         padding: 0 36px;
     }
 
-    .ribbon1 {
-        height: 45px;
-        margin-bottom: 100px;
-    }
 
-    .ribbon1:before {
-        /*左側のリボン端*/
-        width: 10px;
-        bottom: -60px;
-        left: -65px;
-        z-index: -2;
-        border: 35px solid #cd677e;
-        /*山形に切り抜き*/
-    }
-
-    .ribbon1:after {
-        /*右側のリボン端*/
-        width: 10px;
-        bottom: -60px;
-        right: -65px;
-        z-index: -2;
-        /*山形に切り抜き*/
-    }
-
-    .ribbon1 h1 {
-        width: 60%;
-        margin: 0;
-        padding: 0;
-        line-height: 45px;
-        font-size: 20px;
-    }
-
-    .ribbon1 h1:before {
-        top: 100%;
-        left: 0;
-        border: none;
-        /*左の折り返し部分*/
-    }
-
-    .ribbon1 h1:after {
-        top: 100%;
-        right: 0;
-        /*右の折り返し部分*/
-    }
-
-    .ribbon1 span {
-        font-size: 1.5em;
-    }
 }
