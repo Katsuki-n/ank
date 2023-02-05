@@ -13,13 +13,13 @@
 
     h2 {
         font-size: 1em;
-            margin: 30px 0;
-            margin-left: 30px;
+        margin: 30px 0;
+        margin-left: 30px;
     }
 
     .box2 h1 {
         padding-left: 30px;
-      }
+    }
 
     p {
         text-align: left;
@@ -120,11 +120,11 @@
         width: 80%;
         margin-left: 0;
     }
-      
-      /*チェックマーク*/
-      
-      /*ボックス枠のCSS*/
-      .label_test:after {
+
+    /*チェックマーク*/
+
+    /*ボックス枠のCSS*/
+    .label_test:after {
         top: 50%;
         left: 15px;
         margin: -10px 0 0 -2px;
@@ -132,77 +132,77 @@
         height: 17px;
         border: 3px solid black;
         border-radius: 50%;
-      }
-      
-      .label_test {
+    }
+
+    .label_test {
         display: inline-block;
         position: relative;
         padding: 10px 0 10px 40px;
-        margin:0 0 10px 30px;
+        margin: 0 0 10px 30px;
 
         font-size: 1em;
-      }
-      
-      .label_test:after,
-      .label_test:before {
+    }
+
+    .label_test:after,
+    .label_test:before {
         top: 50%;
-      }
-      
-      /*チェックマークの追加*/
-      .label_test:before {
+    }
+
+    /*チェックマークの追加*/
+    .label_test:before {
         left: 21px;
         margin-top: -7px;
         width: 5px;
         height: 9px;
         transform: rotate(45deg);
         opacity: 0;
-      }
-      
-      /*チェックマーク*/
+    }
+
+    /*チェックマーク*/
 
 
-      /*flow*/
-      .flow0 {
+    /*flow*/
+    .flow0 {
         margin: 40px auto;
         padding: 0;
         width: 80%;
-      }
-      
-      .flow0 ul {
-        padding: 0;
-      }
-      
-      .flow0 li {
-        list-style-type: none;
-      }
-      
-.icon1{
-    font-size: 14px;
-}
+    }
 
-      .flow0 dt {
+    .flow0 ul {
+        padding: 0;
+    }
+
+    .flow0 li {
+        list-style-type: none;
+    }
+
+    .icon1 {
+        font-size: 14px;
+    }
+
+    .flow0 dt {
         width: 90%;
-      }
-      
-      .flow0 dd {
+    }
+
+    .flow0 dd {
         margin-top: 20px;
         margin-left: 0;
         width: 90%;
         font-size: 12px;
-      }
-      
-      .flow1 {
-        margin: 0;
-      }
-      
-      .flow1>li {
-        padding: 30px 0;
-      }
-      
-      /*flow*/
+    }
 
-      /*リボン１*/
-      .ribbon1 {
+    .flow1 {
+        margin: 0;
+    }
+
+    .flow1>li {
+        padding: 30px 0;
+    }
+
+    /*flow*/
+
+    /*リボン１*/
+    .ribbon1 {
         height: 45px;
         margin-bottom: 100px;
     }
@@ -238,9 +238,9 @@
         border-bottom: solid 10px transparent;
         border-right: solid 35px #97344b;
         /*左の折り返し部分*/
-      }
-      
-      .ribbon1 h1:after {
+    }
+
+    .ribbon1 h1:after {
         position: absolute;
         content: '';
         top: 100%;
@@ -249,7 +249,7 @@
         border-bottom: solid 10px transparent;
         border-left: solid 35px #97344b;
         /*右の折り返し部分*/
-}
+    }
 
     .ribbon1 h1 {
         width: 70%;
@@ -264,35 +264,140 @@
         font-size: 1.5em;
     }
 
-      /*リボン１*/
+    /*リボン１*/
 
-      .box3{
+    .box3 {
         margin: 50px auto;
-      }
+    }
 
-      .box3 h2{
+    .box3 h2 {
         margin: 10px 0;
-      }
+    }
 
-      .box3 p{
+    .box3 p {
         padding-left: 0;
         margin: 30px auto;
-      }
+    }
 
-      .box3 a{
-        margin: 30px ;
-      }
+    .box3 a {
+        margin: 30px;
+    }
 
-      .box4 .box-title {
-        font-size: 1em;
+    .box4 {
+        width: 90%;
+        margin: 32px auto;
+    }
+
+    .box4 .box-title {
+        font-size: 0.9em;
         letter-spacing: 0;
         padding: 20px 0;
-      }
-      
+    }
 
-      .box-title span{
-        margin: 0 10px;
-      }
+
+    .box-title span {
+        margin: 0 5px;
+        padding: 2px;
+    }
+
+    .box4 p {
+        padding: 40px 20px;
+        font-size: 0.8em;
+    }
+
+    /*コース*/
+    .ribbon2-wrapper {
+        margin: 15px auto;
+        padding: 10px 0;
+        padding-bottom: 40px;
+        width: 90%;
+
+    }
+
+    .ribbon2 {
+        padding: 5px;
+        margin: 0 0 0 -15px;
+        max-width: 100%;
+        width: calc(100% + 15px);
+    }
+
+    .ribbon2 h3 {
+        margin: 0;
+        padding: 10px 30px 0 15px;
+
+        font-size: 1em;
+        line-height: 46px;
+    }
+
+    .ribbon2:after {
+        position: absolute;
+        content: '';
+        z-index: 1;
+        top: 0;
+        right: 0px;
+        width: 0px;
+        height: 0px;
+        border-width: 40px 15px 35px 0px;
+        border-color: transparent rgb(243, 245, 245) transparent transparent;
+        border-style: solid;
+    }
+
+    .ribbon2:before {
+        top: 100%;
+        left: 0;
+        border: none;
+        border-bottom: solid 10px transparent;
+        border-right: solid 10px #97344b;
+    }
+
+    .ribbon2 span {
+        font-size: 2em;
+        padding: 0 10px;
+        padding-top: 10px;
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+        background-color: #c0506b;
+        color: #fff;
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .ribbon2-wrapper p {
+        margin-bottom: 40px;
+    }
+
+    .ribbon2-flex {
+        display: flex;
+    }
+
+    .ribbon2-txt {
+        width: 60%;
+    }
+
+    .ribbon2-img {
+        width: 30%;
+    }
+
+    .ribbon2-img img {
+        width: 100%;
+    }
+
+    .ribbon2-flex0 {
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+    .ribbon2-flex0 img {
+        width: 60px;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*コース*/
 
     .back2 p {
         padding-left: 30px;
