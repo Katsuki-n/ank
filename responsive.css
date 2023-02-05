@@ -11,6 +11,16 @@
         font-size: 1em;
     }
 
+    h2 {
+        font-size: 1em;
+            margin: 30px 0;
+            margin-left: 30px;
+    }
+
+    .box2 h1 {
+        padding-left: 30px;
+      }
+
     p {
         text-align: left;
         padding-left: 30px;
@@ -67,7 +77,7 @@
     }
 
     .box1 {
-        margin: 30px;
+        margin: 30px auto;
         padding: 10px 0;
         border-radius: 3px 0 3px 0;
         width: 80%;
@@ -98,11 +108,101 @@
 
     .list2 {
         width: 70%;
+        margin-left: 50px;
     }
 
     .list2 ul {
         margin-left: 0;
-        font-size: 0.8em;
+        font-size: 0.65em;
+    }
+
+    .list3 {
+        width: 80%;
+        margin-left: 0;
+    }
+      
+      /*チェックマーク*/
+      
+      /*ボックス枠のCSS*/
+      .label_test:after {
+        top: 50%;
+        left: 15px;
+        margin: -10px 0 0 -2px;
+        width: 17px;
+        height: 17px;
+        border: 3px solid black;
+        border-radius: 50%;
+      }
+      
+      .label_test {
+        display: inline-block;
+        position: relative;
+        padding: 10px 0 10px 40px;
+        margin:0 0 10px 30px;
+
+        font-size: 1em;
+      }
+      
+      .label_test:after,
+      .label_test:before {
+        top: 50%;
+      }
+      
+      /*チェックマークの追加*/
+      .label_test:before {
+        left: 21px;
+        margin-top: -7px;
+        width: 5px;
+        height: 9px;
+        transform: rotate(45deg);
+        opacity: 0;
+      }
+      
+      /*チェックマーク*/
+
+
+      /*flow*/
+      .flow0 {
+        margin: 40px auto;
+        padding: 0;
+        width: 80%;
+      }
+      
+      .flow0 ul {
+        padding: 0;
+      }
+      
+      .flow0 li {
+        list-style-type: none;
+      }
+      
+.icon1{
+    font-size: 14px;
+}
+
+      .flow0 dt {
+        width: 90%;
+      }
+      
+      .flow0 dd {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 90%;
+        font-size: 12px;
+      }
+      
+      .flow1 {
+        margin: 0;
+      }
+      
+      .flow1>li {
+        padding: 30px 0;
+      }
+      
+      /*flow*/
+
+    .back2 p {
+        padding-left: 30px;
     }
 
     .back4 p {
@@ -117,6 +217,10 @@
         padding-left: 30px;
     }
 
+    .back9 p {
+        padding-left: 30px;
+    }
+
 
     /*調整中*/
 
@@ -126,13 +230,6 @@
 
     .box0 {
         padding: 0;
-    }
-
-
-
-
-    .list3 {
-        margin-left: 0;
     }
 
     .present1 {
@@ -207,9 +304,5 @@
 
     .ribbon1 span {
         font-size: 1.5em;
-    }
-
-    .flow1 li {
-        width: 100%;
     }
 }
