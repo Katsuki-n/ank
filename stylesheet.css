@@ -850,6 +850,10 @@ footer a {
   padding: 10px 30px;
 }
 
+.story1{
+  margin-bottom: 5px;
+}
+
 .back2 {
   background-image: url(img/back2.png);
   background-size: cover;
@@ -864,8 +868,9 @@ footer a {
 
 .back6 {
   background-image: url(img/back6.png);
-  background-size: cover;
+  background-size: contain;
   padding: 20px 0;
+  margin-bottom: 10px;
 }
 
 .back8 {
@@ -877,6 +882,7 @@ footer a {
 .back9 {
   background-image: url(img/back9.png);
   background-size: cover;
+  background-position: center;
   padding: 20px 0;
 }
 
