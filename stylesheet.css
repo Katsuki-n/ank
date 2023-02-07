@@ -152,6 +152,10 @@ mark {
   padding: 0;
 }
 
+.list2{
+  margin-bottom: 30px ;
+}
+
 .list2 ul,
 .list2 ol {
   padding: 0;
@@ -442,6 +446,79 @@ h2 {
   font-size: 1.5em;
 }
 
+.ribbon1-1 {
+  display: inline-block;
+  position: relative;
+  height: 45px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+.ribbon1-1:before {
+  /*左側のリボン端*/
+  content: '';
+  position: absolute;
+  width: 10px;
+  bottom: -53px;
+  left: -65px;
+  z-index: -2;
+  border: 35px solid #cd677e;
+  border-left-color: transparent;
+  /*山形に切り抜き*/
+}
+
+.ribbon1-1:after {
+  /*右側のリボン端*/
+  content: '';
+  position: absolute;
+  width: 10px;
+  bottom: -53px;
+  right: -65px;
+  z-index: -2;
+  border: 35px solid #cd677e;
+  border-right-color: transparent;
+  /*山形に切り抜き*/
+}
+
+.ribbon1-1 h1 {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 20px 70px;
+  line-height: 45px;
+  font-size: 20px;
+  color: #FFF;
+  background: #c0506b;
+  /*真ん中の背景色*/
+}
+
+.ribbon1-1 h1:before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 10px transparent;
+  border-right: solid 15px #97344b;
+  /*左の折り返し部分*/
+}
+
+.ribbon1-1 h1:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  right: 0;
+  border: none;
+  border-bottom: solid 10px transparent;
+  border-left: solid 15px #97344b;
+  /*右の折り返し部分*/
+}
+
+.ribbon1-1 span {
+  font-size: 1.5em;
+}
+
 .box3 {
   width: 70%;
   margin: 4em 0 4em 5em;
@@ -525,6 +602,7 @@ h2 {
   padding: 5px;
 }
 
+
 /*コース*/
 .ribbon2-wrapper {
   display: block;
@@ -534,6 +612,7 @@ h2 {
   padding-bottom: 40px;
   width: 100%;
   background: rgb(243, 245, 245);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 22%);
 }
 
 .ribbon2 {

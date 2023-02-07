@@ -9,14 +9,14 @@
 
     h1 {
         font-size: 1em;
-        font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+        font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
     }
 
     h2 {
         font-size: 1em;
         margin: 30px 0;
         margin-left: 30px;
-        font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+        font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
     }
 
     .box2 h1 {
@@ -28,7 +28,7 @@
         padding-left: 30px;
         width: 90%;
         font-size: 0.7em;
-        font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+        font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
     }
 
     .logo {
@@ -269,6 +269,71 @@
 
     /*リボン１*/
 
+    /*リボン１-1*/
+    .ribbon1-1 {
+        height: 45px;
+        margin-bottom: 100px;
+        padding: 0;
+    }
+
+    .ribbon1-1:before {
+        /*左側のリボン端*/
+        width: 10px;
+        bottom: -52px;
+        left: 4px;
+        z-index: -2;
+        border: 25px solid #cd677e;
+        border-left-color: transparent;
+        /*山形に切り抜き*/
+    }
+
+    .ribbon1-1:after {
+        /*右側のリボン端*/
+        width: 10px;
+        bottom: -52px;
+        right: 4px;
+        z-index: -2;
+        border: 25px solid #cd677e;
+        border-right-color: transparent;
+        /*山形に切り抜き*/
+    }
+
+    .ribbon1-1 h1:before {
+        position: absolute;
+        content: '';
+        top: 100%;
+        left: 0;
+        border: none;
+        border-bottom: solid 10px transparent;
+        border-right: solid 15px #97344b;
+        /*左の折り返し部分*/
+    }
+
+    .ribbon1-1 h1:after {
+        position: absolute;
+        content: '';
+        top: 100%;
+        right: 0;
+        border: none;
+        border-bottom: solid 10px transparent;
+        border-left: solid 15px #97344b;
+        /*右の折り返し部分*/
+    }
+
+    .ribbon1-1 h1 {
+        width: 70%;
+        margin: 0;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+
+    .ribbon1-1 span {
+        font-size: 1.5em;
+    }
+
+    /*リボン１-1*/
+
     .box3 {
         margin: 50px auto;
     }
@@ -314,14 +379,13 @@
         padding: 10px 0;
         padding-bottom: 40px;
         width: 90%;
-
+        background: rgb(243, 245, 245);
     }
 
     .ribbon2 {
         padding: 5px;
-        margin: 0 0 0 -15px;
-        max-width: 100%;
-        width: calc(100% + 15px);
+        margin: 0 0 0 -10px;
+        width: calc(100% + 10px);
     }
 
     .ribbon2 h3 {
@@ -375,14 +439,16 @@
 
     .ribbon2-flex {
         display: flex;
+        flex-direction: column-reverse;
     }
 
     .ribbon2-txt {
-        width: 60%;
+        width: 100%;
     }
 
     .ribbon2-img {
-        width: 30%;
+        width: 90%;
+        margin: 30px auto 0;
     }
 
     .ribbon2-img img {
@@ -402,6 +468,24 @@
 
     /*コース*/
 
+    .present1 {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .present1 p {
+        margin: 40px 0;
+    }
+
+    .present1 h2 {
+        margin: 0;
+    }
+
+    .present1 a {
+        padding: 20px 80px;
+    }
+
     .back2 p {
         padding-left: 30px;
     }
@@ -410,12 +494,12 @@
         padding-left: 30px;
     }
 
-    .back6{
+    .back6 {
         background-size: cover;
         background-position: center;
     }
 
-    .back9{
+    .back9 {
         background-size: cover;
     }
 
@@ -442,11 +526,7 @@
         padding: 0;
     }
 
-    .present1 {
-        border: 5px solid #c0506b;
-        padding: 50px;
-        margin-bottom: 50px;
-    }
+
 
     .triangle {
         margin: 0;
