@@ -15,7 +15,11 @@ main {
 }
 
 .space {
-  margin: 50px 0;
+  margin: 30px 0;
+}
+
+.space1{
+  margin: 80px 0 30px;
 }
 
 .header-p {
@@ -153,13 +157,13 @@ mark {
 }
 
 .list2{
-  margin-bottom: 30px ;
+  margin-bottom: 30px  auto;
 }
 
 .list2 ul,
 .list2 ol {
   padding: 0;
-  margin: 0 80px;
+  margin: 0 ;
 }
 
 .list2 ul li {
@@ -294,6 +298,7 @@ h2 {
 .flow0 dt {
   width: 100%;
   border-bottom: 2px solid #eec0bf;
+  margin: 0;
 }
 
 .flow0 dd {
@@ -387,10 +392,10 @@ h2 {
   content: '';
   position: absolute;
   width: 10px;
-  bottom: -60px;
-  left: -65px;
+  bottom: -100px;
+  left: -85px;
   z-index: -2;
-  border: 35px solid #cd677e;
+  border: 50px solid #cd677e;
   border-left-color: transparent;
   /*山形に切り抜き*/
 }
@@ -400,10 +405,10 @@ h2 {
   content: '';
   position: absolute;
   width: 10px;
-  bottom: -60px;
-  right: -65px;
+  bottom: -100px;
+  right: -85px;
   z-index: -2;
-  border: 35px solid #cd677e;
+  border: 50px solid #cd677e;
   border-right-color: transparent;
   /*山形に切り抜き*/
 }
@@ -426,8 +431,8 @@ h2 {
   top: 100%;
   left: 0;
   border: none;
-  border-bottom: solid 10px transparent;
-  border-right: solid 15px #97344b;
+  border-bottom: solid 7px transparent;
+  border-right: solid 25px #97344b;
   /*左の折り返し部分*/
 }
 
@@ -437,8 +442,8 @@ h2 {
   top: 100%;
   right: 0;
   border: none;
-  border-bottom: solid 10px transparent;
-  border-left: solid 15px #97344b;
+  border-bottom: solid 7px transparent;
+  border-left: solid 25px #97344b;
   /*右の折り返し部分*/
 }
 
@@ -792,12 +797,6 @@ summary {
   margin-bottom: 50px;
 }
 
-.menu p {
-  display: block;
-  padding: 15px;
-
-}
-
 label {
   width: 90%;
   display: block;
@@ -851,6 +850,11 @@ input {
   left: 600px;
   bottom: 30px;
   display: inline-block;
+}
+
+.menu p {
+  display: block;
+  padding: 15px;
 }
 
 /*menu*/

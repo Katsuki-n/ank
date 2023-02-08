@@ -2,9 +2,8 @@
 
 @media screen and (max-width:480px) {
     * {
-        margin: 0;
+        margin: auto;
         padding: 0;
-        width: 100%;
     }
 
     h1 {
@@ -56,12 +55,19 @@
     }
 
     .list1 {
-        width: 70%;
+        width: 90%;
+        margin: 0 ;
+        margin-left: 30px;
     }
 
     .list1 ul {
         margin: 0 30px;
         padding: 30px;
+        margin-left:0 ;
+    }
+
+    .list1 li{
+        font-size: 0.7em;
     }
 
     .top-i {
@@ -121,7 +127,7 @@
 
     .list3 {
         width: 80%;
-        margin-left: 0;
+        margin: 0;
     }
 
     /*チェックマーク*/
@@ -188,8 +194,7 @@
     }
 
     .flow0 dd {
-        margin-top: 20px;
-        margin-left: 0;
+        margin: 20px 0 0;
         width: 90%;
         font-size: 12px;
     }
@@ -208,15 +213,17 @@
     .ribbon1 {
         height: 45px;
         margin-bottom: 100px;
+        text-align: center;
+        left: -20px;
     }
 
     .ribbon1:before {
         /*左側のリボン端*/
         width: 10px;
-        bottom: -77px;
-        left: 4px;
+        bottom: -60px;
+        left: -54px;
         z-index: -2;
-        border: 35px solid #cd677e;
+        border: 30px solid #cd677e;
         border-left-color: transparent;
         /*山形に切り抜き*/
     }
@@ -224,10 +231,10 @@
     .ribbon1:after {
         /*右側のリボン端*/
         width: 10px;
-        bottom: -77px;
-        right: 4px;
+        bottom: -60px;
+        right: -94px;
         z-index: -2;
-        border: 35px solid #cd677e;
+        border: 30px solid #cd677e;
         border-right-color: transparent;
         /*山形に切り抜き*/
     }
@@ -238,8 +245,8 @@
         top: 100%;
         left: 0;
         border: none;
-        border-bottom: solid 10px transparent;
-        border-right: solid 35px #97344b;
+        border-bottom: solid 8px transparent;
+        border-right: solid 17px #97344b;
         /*左の折り返し部分*/
     }
 
@@ -249,17 +256,17 @@
         top: 100%;
         right: 0;
         border: none;
-        border-bottom: solid 10px transparent;
-        border-left: solid 35px #97344b;
+        border-bottom: solid 8px transparent;
+        border-left: solid 17px #97344b;
         /*右の折り返し部分*/
     }
 
     .ribbon1 h1 {
-        width: 70%;
-        margin: 0;
+        width: 100%;
+        margin: 0 ;
         margin-top: 20px;
-        padding: 0 10px;
-        line-height: 45px;
+        padding: 0 20px;
+        line-height: 25px;
         font-size: 0.8em;
     }
 
@@ -274,6 +281,7 @@
         height: 45px;
         margin-bottom: 100px;
         padding: 0;
+        width: 100%;
     }
 
     .ribbon1-1:before {
@@ -369,6 +377,7 @@
     }
 
     .box4 p {
+        width: 90%;
         padding: 40px 20px;
         font-size: 0.8em;
     }
@@ -446,6 +455,10 @@
         width: 100%;
     }
 
+    .ribbon2-txt p{
+        width: 90%;
+    }
+
     .ribbon2-img {
         width: 90%;
         margin: 30px auto 0;
@@ -471,62 +484,58 @@
     .present1 {
         width: 90%;
         padding: 0;
+        padding-bottom: 50px;
         margin: 0 auto;
     }
 
     .present1 p {
-        margin: 40px 0;
+        margin: 40px auto;
+        padding-left: 0;
+        width: 90%;
     }
 
     .present1 h2 {
-        margin: 0;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    .present1 img {
+        margin: 0 auto;
+        width: 80%;
     }
 
     .present1 a {
         padding: 20px 80px;
     }
 
-    .back2 p {
-        padding-left: 30px;
+    .join {
+        margin: 60px auto 30px;
     }
 
-    .back4 p {
-        padding-left: 30px;
+    .box5 {
+        margin: 80px auto 10px;
+        width: 80%;
+        padding: 40px auto 20px;
     }
 
-    .back6 {
-        background-size: cover;
-        background-position: center;
+    .box5 .box-title {
+        width: 90%;
+        padding: 15px 20px;
     }
 
-    .back9 {
-        background-size: cover;
+    .box5 p {
+        width: 100%;
     }
 
-    .back6 p {
-        padding-left: 30px;
+    /*memu*/
+
+    .menu {
+        margin: 0 auto;
     }
 
-    .back8 p {
-        padding-left: 30px;
+    label {
+        font-size: 1em;
     }
-
-    .back9 p {
-        padding-left: 30px;
-    }
-
-
-    /*調整中*/
-
-    .txt-left {
-        margin-left: 0;
-    }
-
-    .box0 {
-        padding: 0;
-    }
-
-
 
     .triangle {
         margin: 0;
@@ -536,15 +545,83 @@
         border-top: 20px solid #c0506b;
         border-left: 20px solid transparent;
         position: relative;
-        left: 60px;
+        left: 305px;
         bottom: 30px;
         display: inline-block;
     }
 
+    .menu ul{
+        width: 90%;
+        margin: 0 auto 20px;
+    }
+
+
+    /*memu*/
+
+    .box6{
+        width: 70%;
+        margin: 20px;
+    }
+
     .box6 h1 {
         position: relative;
-        display: inline-block;
         padding: 0 36px;
+        
+    }
+
+    .box7{
+        margin: 50px auto;
+    }
+
+    .box7 p{
+        font-size: 1em;
+        margin-left: 30px;
+    }
+
+    footer p{
+        text-align: center;
+    }
+
+    .back2 p {
+        padding-left: 30px;
+        width: 90%;
+    }
+
+    .back4 p {
+        padding-left: 30px;
+        width: 90%;
+    }
+
+    .back6 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .back6 p {
+        padding-left: 30px;
+        width: 90%;
+    }
+
+    .back8 p {
+        padding-left: 30px;
+        width: 90%;
+    }
+
+    .back9 {
+        background-size: cover;
+    }
+
+    .back9 p {
+        padding-left: 30px;
+        width: 90%;
+    }
+
+    .txt-left {
+        margin: 0;
+    }
+
+    .box0 {
+        padding: 0;
     }
 
 
