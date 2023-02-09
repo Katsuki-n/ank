@@ -62,7 +62,7 @@
 
     .list1 ul {
         margin: 0 30px;
-        padding: 30px;
+        padding: 10px 30px;
         margin-left:0 ;
     }
 
@@ -78,11 +78,12 @@
 
     .top-p {
         font-size: 15px;
-        padding-left: 20px;
+        padding-left: 30px;
     }
 
     .top-p p {
-        padding-left: 10px;
+        padding-left: 0;
+        width: 100%;
     }
 
     .box1 {
@@ -117,7 +118,7 @@
 
     .list2 {
         width: 70%;
-        margin-left: 50px;
+        margin: 0 50px 30px;
     }
 
     .list2 ul {
@@ -139,7 +140,7 @@
         margin: -10px 0 0 -2px;
         width: 17px;
         height: 17px;
-        border: 3px solid black;
+        border: 3px solid #c0506b;
         border-radius: 50%;
     }
 
@@ -353,6 +354,7 @@
     .box3 p {
         padding-left: 0;
         margin: 30px auto;
+        width: 100%;
     }
 
     .box3 a {
@@ -377,9 +379,10 @@
     }
 
     .box4 p {
-        width: 90%;
-        padding: 40px 20px;
+        width: 92%;
+        padding: 20px 10px;
         font-size: 0.8em;
+        margin: 0 auto;
     }
 
     /*コース*/
@@ -555,17 +558,48 @@
         margin: 0 auto 20px;
     }
 
+    #menu_bar01:checked~#links01 li {
+        height: 87px;
+        opacity: 1;
+      }
+      
+      #menu_bar02:checked~#links02 li
+       {
+        height: 70px;
+        opacity: 1;
+      }
+
+      #menu_bar03:checked~#links03 li,
+      #menu_bar04:checked~#links04 li{
+        height: 60px;
+        opacity: 1;
+      }
+
+      #menu_bar03:checked~#links03 .links03-p{
+        height: 44px;
+        opacity: 1;
+      }
+
+      #menu_bar03:checked~#links03 p,
+      #menu_bar04:checked~#links04 p{
+        padding: 5px 15px;
+      }
+
+      #menu_bar05:checked~#links05 li{
+        height: 54px;
+        opacity: 1;
+      }
 
     /*memu*/
 
     .box6{
-        width: 70%;
-        margin: 20px;
+        width: 90%;
+        margin: 20px auto;
     }
 
     .box6 h1 {
         position: relative;
-        padding: 0 36px;
+        padding: 0 150px;
         
     }
 
@@ -620,9 +654,16 @@
         margin: 0;
     }
 
+    .txt-left span{
+        font-size: 1.3em;
+    }
+
     .box0 {
         padding: 0;
     }
 
+    .sp-br{
+        display: block;
+    }
 
 }
