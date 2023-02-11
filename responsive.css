@@ -56,17 +56,17 @@
 
     .list1 {
         width: 90%;
-        margin: 0 ;
+        margin: 0;
         margin-left: 30px;
     }
 
     .list1 ul {
         margin: 0 30px;
         padding: 10px 30px;
-        margin-left:0 ;
+        margin-left: 0;
     }
 
-    .list1 li{
+    .list1 li {
         font-size: 0.7em;
     }
 
@@ -264,7 +264,7 @@
 
     .ribbon1 h1 {
         width: 100%;
-        margin: 0 ;
+        margin: 0;
         margin-top: 20px;
         padding: 0 20px;
         line-height: 25px;
@@ -458,7 +458,7 @@
         width: 100%;
     }
 
-    .ribbon2-txt p{
+    .ribbon2-txt p {
         width: 90%;
     }
 
@@ -553,7 +553,7 @@
         display: inline-block;
     }
 
-    .menu ul{
+    .menu ul {
         width: 90%;
         margin: 0 auto 20px;
     }
@@ -561,38 +561,37 @@
     #menu_bar01:checked~#links01 li {
         height: 87px;
         opacity: 1;
-      }
-      
-      #menu_bar02:checked~#links02 li
-       {
+    }
+
+    #menu_bar02:checked~#links02 li {
         height: 70px;
         opacity: 1;
-      }
+    }
 
-      #menu_bar03:checked~#links03 li,
-      #menu_bar04:checked~#links04 li{
+    #menu_bar03:checked~#links03 li,
+    #menu_bar04:checked~#links04 li {
         height: 60px;
         opacity: 1;
-      }
+    }
 
-      #menu_bar03:checked~#links03 .links03-p{
+    #menu_bar03:checked~#links03 .links03-p {
         height: 44px;
         opacity: 1;
-      }
+    }
 
-      #menu_bar03:checked~#links03 p,
-      #menu_bar04:checked~#links04 p{
+    #menu_bar03:checked~#links03 p,
+    #menu_bar04:checked~#links04 p {
         padding: 5px 15px;
-      }
+    }
 
-      #menu_bar05:checked~#links05 li{
+    #menu_bar05:checked~#links05 li {
         height: 54px;
         opacity: 1;
-      }
+    }
 
     /*memu*/
 
-    .box6{
+    .box6 {
         width: 90%;
         margin: 20px auto;
     }
@@ -600,19 +599,19 @@
     .box6 h1 {
         position: relative;
         padding: 0 150px;
-        
+
     }
 
-    .box7{
+    .box7 {
         margin: 50px auto;
     }
 
-    .box7 p{
+    .box7 p {
         font-size: 1em;
         margin-left: 30px;
     }
 
-    footer p{
+    footer p {
         text-align: center;
     }
 
@@ -654,7 +653,7 @@
         margin: 0;
     }
 
-    .txt-left span{
+    .txt-left span {
         font-size: 1.3em;
     }
 
@@ -662,7 +661,7 @@
         padding: 0;
     }
 
-    .sp-br{
+    .sp-br {
         display: block;
     }
 
