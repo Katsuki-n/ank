@@ -421,14 +421,6 @@
         border-style: solid;
     }
 
-    .ribbon2:before {
-        top: 100%;
-        left: 0;
-        border: none;
-        border-bottom: solid 10px transparent;
-        border-right: solid 10px #97344b;
-    }
-
     .ribbon2 span {
         font-size: 2em;
         padding: 0 10px;
