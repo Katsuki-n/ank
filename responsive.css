@@ -650,6 +650,15 @@
         width: 90%;
     }
 
+    .back10 {
+        background-size: cover;
+    }
+
+    .back10 p {
+        padding-left: 30px;
+        width: 90%;
+    }
+
     .txt-left {
         margin: 0;
     }
